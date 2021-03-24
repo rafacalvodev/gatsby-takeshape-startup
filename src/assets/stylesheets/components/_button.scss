@@ -1,0 +1,24 @@
+/* Buttons */
+.button {
+  background-color: $v-light-gray;
+  border: 1px solid $v-light-gray;
+  color: $dark-blue;
+  padding: 1.25rem 2.5rem;
+  display: inline-block;
+  position: relative;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 6px;
+
+  &:hover {
+    background-color: $dark-blue;
+    color: $light-blue;
+    border: 1px solid $light-blue;
+  }
+}
+
+.button--dark {
+  background-color: $dark-blue;
+  color: $v-light-gray;
+}
